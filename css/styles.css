@@ -59,6 +59,11 @@ img {
   align-items: center;
 }
 
+.nav-all {
+  display: flex;
+  align-items: center;
+}
+
 .nav-logo {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
@@ -68,10 +73,16 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  margin-right: 76px;
 }
 
 .nav-logo-span {
   color: #2e2f42;
+}
+
+.menu {
+  display: flex;
+  gap: 40px;
 }
 
 .nav-a {
@@ -100,6 +111,11 @@ img {
   padding: 24px 0;
 }
 
+.address-link {
+  display: flex;
+  gap: 40px;
+}
+
 .address-a {
   font-weight: 400;
   font-size: 16px;
@@ -120,6 +136,7 @@ img {
 /* #region hero-section */
 .hero-section {
   background: #2e2f42;
+  padding: 188px 0;
 }
 
 .hero-title {
@@ -130,16 +147,7 @@ img {
   text-align: center;
   color: #fff;
   padding-top: 188px;
-}
-
-.container-hero-button {
-  display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
-  flex-direction: row;
-  gap: 10px;
-  padding-top: 48px;
-  padding-bottom: 188px;
+  max-width: 496px;
 }
 
 .button-hero-section {
@@ -149,10 +157,16 @@ img {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #fff;
-  background: #4d5ae5;
   font-family: 'Roboto', sans-serif;
   border-radius: 4px;
   padding: 16px 32px;
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  border-radius: 4px;
+  background-color: #4d5ae5;
+  cursor: pointer;
 }
 
 .button-hero-section:hover {
@@ -223,12 +237,13 @@ img {
 
 .our-teams-list {
   display: flex;
-  column-gap: 24px;
+  gap: 24px;
 }
 
 .employee-our-teams-card {
   width: calc((100% - 72px) / 4);
   background: #fff;
+  border-radius: 0px 0px 4px 4px;
 }
 
 .our-teams-card-text {
@@ -237,6 +252,7 @@ img {
   justify-content: center;
   flex-direction: column;
   gap: 8px;
+  padding: 32px 0;
 }
 
 .our-teams-card-text .item-title {
@@ -299,6 +315,8 @@ img {
   text-transform: uppercase;
   color: #4d5ae5;
   font-family: 'Raleway', sans-serif;
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 .footer-logo-span {
@@ -307,5 +325,6 @@ img {
 
 .footer-section {
   background: #2e2f42;
+  padding: 100px 0;
 }
 /* #endregion footer-section */
