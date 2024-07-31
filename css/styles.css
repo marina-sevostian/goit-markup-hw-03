@@ -146,8 +146,10 @@ img {
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
-  padding-top: 188px;
   max-width: 496px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 48px;
 }
 
 .button-hero-section {
@@ -167,6 +169,8 @@ img {
   border-radius: 4px;
   background-color: #4d5ae5;
   cursor: pointer;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .button-hero-section:hover {
@@ -211,7 +215,6 @@ img {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  text-align: center;
   color: #2e2f42;
   margin-bottom: 8px;
 }
@@ -220,7 +223,6 @@ img {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  text-align: center;
   color: #434455;
 }
 /* #endregion about-company-section */
@@ -247,7 +249,6 @@ img {
 }
 
 .our-teams-card-text {
-  display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
@@ -258,6 +259,11 @@ img {
 .our-teams-card-text .item-title {
   font-weight: 500;
   margin-bottom: 8px;
+  text-align: center;
+}
+
+.our-teams-card-text .section-text {
+  text-align: center;
 }
 
 /* #endregion our-teams-section */
@@ -283,7 +289,6 @@ img {
 }
 
 .porfolio-card-text {
-  display: flex;
   align-items: flex-start;
   justify-content: center;
   flex-direction: column;
@@ -305,6 +310,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
+  max-width: 264px;
 }
 
 .footer-logo {
